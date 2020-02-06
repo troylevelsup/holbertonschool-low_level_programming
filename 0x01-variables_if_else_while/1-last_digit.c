@@ -21,10 +21,6 @@ int main(void)
 
 	last = n % 10;
 
-	if (last < 0)
-	{
-		last = last * -1;
-	}
 
 	if (last > 5)
 	{
