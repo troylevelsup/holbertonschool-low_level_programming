@@ -2,16 +2,19 @@
 
 /**
 * print_last_digit()- prints last digit
-* @num:starting number
+* @num: starting number
 * Return: last digit of num
 */
 
 
-int print_last_digit(int num)
+int print_last_digit(int n)
 {
-	int result;
+	int num = n % 10;
+	
+	if (num < 0)
+		num *= -1;
 
-	result = num % 10;
-	return (result);
+	_putchar(num + '0');
+	return (num);
 
 }
