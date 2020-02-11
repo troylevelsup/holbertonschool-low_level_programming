@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		_putchar(holb[i - 1]);
+		_putchar(holb[i]);
 	}
 	_putchar('\n');
 	return (0);
