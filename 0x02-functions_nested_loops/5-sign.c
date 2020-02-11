@@ -2,7 +2,7 @@
 
 /**
 * print_sign- determines polarity of a number
-* return: 0 if 0, 1 if positive, and -1 if less than zero
+* Return: 0 if 0, 1 if positive, and -1 if less than zero
 * @n: number print_sign checks
 */
 
