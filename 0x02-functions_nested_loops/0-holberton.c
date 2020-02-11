@@ -6,14 +6,15 @@
 * Return: 0
 */
 
-int main (void)
+int main(void)
 {
 	int i;
-	char holb[9]="Holberton";
-	for(i=0; i<=9; i++)
+	char holb[9] = "Holberton";
+
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(holb[i-1]);
+		_putchar(holb[i - 1]);
 	}
-	putchar('\n');
-	return 0;
+	_putchar('\n');
+	return (0);
 }
