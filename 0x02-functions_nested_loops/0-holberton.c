@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		putchar(holb[i - 1]);
+		_putchar(holb[i - 1]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
