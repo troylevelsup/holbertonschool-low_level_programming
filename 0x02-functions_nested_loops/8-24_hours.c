@@ -10,17 +10,19 @@ void jack_bauer(void)
 	int hours;
 	int minutes;
 
-	for (hours = 0; hours<24; hours++)
+	for (hours = 0; hours < 24; hours++)
 	{
-		for (minutes = 0; minutes <= 4; minutes++)
+		for (minutes = 0; minutes <= 59; minutes++)
 		{
-			if (hours < 10)
-				_putchar('0' + 0);
-			_putchar(hours);
+			/*hours first digit*/
+			_putchar((hours / 10) + '0');
+			/*hours second digit*/
+			_putchar((hours % 10) + '0');
 			_putchar(':');
-			if (minutes<10)
-				_putchar('0' + 0);
-			_putchar(minutes+0);
+			/*minutes first digit*/
+			_putchar((minutes / 10) + '0');
+			/*minutes second digit*/
+			_putchar((minutes % 10) + '0');
 			_putchar('\n');
 		}
 	}
