@@ -7,13 +7,13 @@
 int main(void)
 {
 	int i;
-	int running;
+	long running;
 
 	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 			running += i;
 	}
-	printf("%ld\n", i);
+	printf("%ld\n", running);
 	return (0);
 }
