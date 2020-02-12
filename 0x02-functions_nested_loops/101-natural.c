@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+* main - print sum of all multiples of 3 and 5 below 1024
+* Return:  0
+*/
 
 int main(void)
 {
@@ -10,6 +14,6 @@ int main(void)
 		if (i % 3 == 0 || i % 5 == 0)
 			running += i;
 	}
-	printf("%d \n", i);
+	printf("%d\n", i);
 	return (0);
 }
