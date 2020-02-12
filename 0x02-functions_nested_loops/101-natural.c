@@ -14,6 +14,6 @@ int main(void)
 		if (i % 3 == 0 || i % 5 == 0)
 			running += i;
 	}
-	printf("%d\n", i);
+	printf("%ld\n", i);
 	return (0);
 }
