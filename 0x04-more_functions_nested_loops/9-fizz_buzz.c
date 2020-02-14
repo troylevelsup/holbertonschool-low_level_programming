@@ -25,7 +25,7 @@ int main(void)
 		{
 			printf("Buzz");
 			if (i < 100)
-				putchar('\n');
+				putchar(' ');
 			continue;
 		}
 		else
